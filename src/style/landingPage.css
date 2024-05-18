@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+.main-container {
+    background-color: #FFF4DF;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 48px;
+    height: 39.22px;
+    padding-right: 18px;
+    transform: rotate(-16turn);
+}
+
+.header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content p {
+    font-weight: 500;
+    font-size: 64px;
+    font-family: 'Lexend', sans-serif;
+    line-height: 84px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.main-content p img {
+    vertical-align: middle;
+}
+
+/* event landing Page css */
+
+.eventMainPage{
+  background-color: rgb(101, 99, 99);
+}
