@@ -1,16 +1,18 @@
-import React from 'react'
-import LandingPage from './Components/LandingPage'
-import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
+import React from "react";
+// import LandingPage from "./Components/LandingPage";
+import EventMainPage from "./Components/EventLandingPage/EventMainPage";
+import EventInfoStrip from "./Components/EventLandingPage/EventInfoStrip";
+import ExploreEventPage from "./Components/EventLandingPage/ExploreEventPage";
 
 const App = () => {
   return (
-    <Router>
-    <Routes>
-<Route path='/landingPage' element={<LandingPage />} />
-    </Routes>
-      
-    </Router>
-  )
-}
+    <>
+      {/* <LandingPage /> */}
+      {/* <EventMainPage /> */}
+      {/* <EventInfoStrip /> */}
+       <ExploreEventPage />
+    </>
+  );
+};
 
-export default App
+export default App;

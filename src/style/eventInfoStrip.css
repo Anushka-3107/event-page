@@ -1,0 +1,32 @@
+@keyframes verticalScroll {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.eventInfoStrip {
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px; 
+  width: 80px; 
+  background-color: rgb(185, 185, 229); 
+}
+
+.eventInfoStrip .verticalStrip {
+  display: flex;
+  flex-direction: column;
+  animation: verticalScroll 9s linear infinite; /* Apply the vertical scrolling animation */
+}
+
+.eventInfoStrip .verticalStrip h1, 
+.eventInfoStrip .verticalStrip p{
+  margin: 0;
+  padding: 20px 0;
+  writing-mode: vertical-rl; /* Rotate text for vertical reading */
+  text-orientation: mixed; 
+}
