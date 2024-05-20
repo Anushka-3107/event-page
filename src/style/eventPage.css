@@ -1,5 +1,5 @@
-.eventMainPage{
-    background-color: rgb(0, 0, 0);
+/* .eventMainPage{
+    background-color: rgb(255, 0, 0);
 }
 
 .header-logo{
@@ -25,14 +25,63 @@
     color: rgb(173, 173, 171);
    
 }
-/* 
+
 .header-one, .header-two {
     font-size: 5rem; 
     letter-spacing: 0.4rem;
     margin: 40px ;
-  } */
-/* 
+  } 
+
 .eventBg{
     height: 400px;
     width: 400px;
 } */
+
+  
+  .eventMainPage {
+    position: relative;
+    height: 100vh;
+    background-color: red;
+  }
+  
+  .headerLogo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .branding {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .innerBanner {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .headerOne,
+  .headerTwo {
+    font-size: 50px;
+    color: white;
+    margin: 0;
+  }
+  
+  .imageCarousel {
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    transform: translateY(-50%);
+  }
+  
+  .slick-slide img {
+    width: 100px;
+    /* height: auto; */
+  }
+  

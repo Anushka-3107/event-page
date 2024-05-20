@@ -11,43 +11,38 @@ const ExploreEventPage = () => {
   return (
     <div className="exploreEventPage">
       {/* header */}
-     
-        <h1 className="exploreHeader">Explore Your Event </h1>
+      <h1 className="exploreHeader">Explore Your Event </h1>
 
       {/* Event details */}
       <div className="eventDetails">
         <h1 className="eventName">Event Name</h1>
         <div className="eventTiming">
           <div className="eventCont1">
-          <p>
-            <CiLocationOn className="locationIcon" />
-            Venue
-          </p>
+            <p>
+              <CiLocationOn className="locationIcon" />
+              Venue
+            </p>
           </div>
 
           <div className="eventCont2">
-          <p>
-            <LuAlarmClock />
-          </p>
-          <h3>19/05/2024</h3>
-          <h3>@20:00</h3>
-          </div> 
+            <p>
+              <LuAlarmClock />
+            </p>
+            <h3>19/05/2024</h3>
+            <h3>@20:00</h3>
+          </div>
         </div>
         {/* description */}
         <div className="eventCont3">
-        <p>
-        Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit. 
-        Nullam nec sapien nec nisl 
-        fermentum dapibus. 
-        </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec sapien nec nisl fermentum dapibus.
+          </p>
         </div>
-        
       </div>
 
       {/* artist section */}
       <div className="artistSection">
-      <h1>Arist Lineup</h1>
+        <h1>Artist Lineup</h1>
         <div className="artistContainer">
           <img src={Img1} alt="img1" className="topImage" />
           <div className="bottomImages">
