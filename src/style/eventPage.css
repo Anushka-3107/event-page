@@ -1,87 +1,60 @@
-/* .eventMainPage{
-    background-color: rgb(255, 0, 0);
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+.eventMainPage {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    padding-left: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
 }
 
-.header-logo{
+.header-logo {
     display: flex;
     align-items: center;
 }
 
-.branding{
+.logo {
     height: 50px;
     width: 50px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.logo{
-    margin-left: 20px;
-    font-size: 3rem;
-    color: rgb(217, 217, 92);
+.heading {
+    font-family: 'Lexend', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #FFCA5F;
 }
 
-.inner-banner{
-    display: flex;
-    flex-direction: column;
-    color: rgb(173, 173, 171);
-   
-}
-
-.header-one, .header-two {
-    font-size: 5rem; 
-    letter-spacing: 0.4rem;
-    margin: 40px ;
-  } 
-
-.eventBg{
-    height: 400px;
-    width: 400px;
-} */
-
-  
-  .eventMainPage {
-    position: relative;
-    height: 100vh;
-    background-color: red;
-  }
-  
-  .headerLogo {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .branding {
-    height: 50px;
-    margin-right: 10px;
-  }
-  
-  .logo {
-    font-size: 24px;
-    color: white;
-  }
-  
-  .innerBanner {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-  
-  .headerOne,
-  .headerTwo {
-    font-size: 50px;
-    color: white;
-    margin: 0;
-  }
-  
-  .imageCarousel {
+.slider {
     position: absolute;
-    top: 50%;
-    width: 40%;
-    transform: translateY(-50%);
-  }
-  
-  .slick-slide img {
-    width: 100px;
-    /* height: auto; */
-  }
-  
+    z-index: 1;
+    overflow: hidden;
+    width: 600px;
+    height: 630px;
+    align-items: center;
+    left: 300px;
+    margin: auto;
+    top: 60px;
+    opacity: 80%;
+}
+
+.slick-slide img {
+    height: 630px;
+    width: 412px;
+    margin: auto; 
+}
+
+.slick-track {
+    display: flex;
+    justify-content: center; 
+}
+
+.slick-slide {
+    margin: 0 10px; 
+}
